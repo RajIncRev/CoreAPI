@@ -1,0 +1,32 @@
+﻿Hosting Model
+--------------------
+1. Hosting Model can be InProcess or OutProcess
+2. Hosting model will be defined in application project file as bellow:
+	<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+3. If the HostingModel is "InProcess" then the CreateDefaultBuilder() method internally calls the UseIIS() method. 
+	Then host the application inside the IIS worker process (i.e. w3wp.exe for IIS and iisexpress.exe for IISExpress). 
+4. From the performance point of view, the InProcess hosting model delivers significantly higher request throughput than the OutOfProcess hosting model. 
+5. The process name that will be used to execute the application is w3wp in the case of IIS. Similarly, if it is IIS Express then the process name will be iisexpress.
+6. With the InProcess hosting model, there is only one web server i.e. IIS.
+7. In the case of OutOfProcess hosting, there are 2 web servers .1. An internal web server and 2. One external web server.
+	The internal web server is called Kestrel and the external web server can be IIS, Nginx, or Apache.
+8. The Kestrel is the cross-platform web server for the ASP.NET Core application.
+ASP.NET Core Middleware Components:
+	The ASP.NET Core Middleware Components are the software components (technically components are nothing but the C# Classes) that are assembled into the application pipeline to handle the HTTP Requests and Responses. Each middleware component in ASP.NET Core Application performs the following tasks.
+
+	Chooses whether to pass the HTTP Request to the next component in the pipeline. This can be achieved by calling the next() method within the middleware.
+	Can perform work before and after the next component in the pipeline.
+
+	Some of the examples of using Middleware components in the ASP.NET Core application are as follows
+
+	We may have a Middleware component for authenticating the user
+	Another Middleware component may be used to log the request and response
+	Similarly, we may have a Middleware component that is used to handle the errors
+	We may have a Middleware component that is used to handle the static files such as images, Javascript or CSS files, etc.
+	Another Middleware component may be used to Authorize the users while accessing a specific resource
+
+	So, a Middleware component in ASP.NET Core can :
+
+	Handle the incoming HTTP request by generating an HTTP response.
+	Process the incoming HTTP request, modify it, and then pass it to the next middleware component
+	Process the outgoing HTTP response, modify it, and then pass it on to either the next middleware component or to the ASP.NET Core web server.

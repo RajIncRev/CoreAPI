@@ -1,0 +1,10 @@
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\CoreAPI.exe
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\index.html
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\MyCustomPage1.html
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\p.jpg
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\CoreAPI.dll
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\CoreAPI.deps.json
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\CoreAPI.runtimeconfig.json
+C:\Users\rajkishoreb\source\repos\CoreApplication\CoreAPI\obj\Release\netcoreapp3.1\PubTmp\Out\CoreAPI.pdb
